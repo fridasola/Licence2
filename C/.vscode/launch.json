@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/emily/OneDrive/Documents/GitHub/Licence2/C/EchangeDeMonnaie",
-      "program": "c:/Users/emily/OneDrive/Documents/GitHub/Licence2/C/EchangeDeMonnaie/build/Debug/outDebug",
+      "cwd": "c:/Users/emily/OneDrive/Documents/GitHub/Licence2/C/Opérateurs - Structures de contrôle/EchangeDeMonnaie",
+      "program": "c:/Users/emily/OneDrive/Documents/GitHub/Licence2/C/Opérateurs - Structures de contrôle/EchangeDeMonnaie/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
