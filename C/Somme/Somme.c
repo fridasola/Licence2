@@ -4,9 +4,13 @@ int main()
 {
     int somme=0,produit=1;
     float moyenne;
+    int n=1;
     printf("Combien de nombres voulez-vous entrer? ");
-    int n;
     scanf("%d",&n);
+    while (n<1 || n>15) {
+        printf("Veuillez entrer un nombre entre 1 et 15: ");
+        scanf("%d", &n);
+    }
     int i;
     for(i=0;i<n;i++)
     {
