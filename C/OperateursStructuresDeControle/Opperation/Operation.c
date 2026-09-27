@@ -4,22 +4,16 @@ int main()
 {
     int nb1,nb2,nb;
     char entree;
-    char exit = 0;
-    while(exit == 0)
+    do
     {
         printf("Addition\tA\nSoustractino\tS\nMultiplication\tM\nDivision\tD\nQuitter\tQ\nVotre choix: ");
         nb=scanf("%s",&entree);
 
-        if (entree == 'Q') 
-        {
-            exit = 1;
-        }else
-        {
-            printf("Entrez deux nombres entiers: ");
-            fflush(stdout);
-            scanf("%d %d",&nb1,&nb2);
-            fflush(stdin);
-        }
+        printf("Entrez deux nombres entiers: ");
+        fflush(stdout);
+        scanf("%d %d",&nb1,&nb2);
+        fflush(stdin);
+        
         
         switch (entree)
         {
@@ -47,6 +41,6 @@ int main()
                 printf("Choix invalide!\n");
                 break;
         }
-    }
+    }while (entree != 'Q');
     return 0;
 }
