@@ -24,28 +24,34 @@ int main()
     {
         printf("%d \t",t[i]);
     }
-    int t1[TAILLE],effectif[TAILLE],e=0;
-    for(i=0;i<nb;i++)
+    int t1[TAILLE],effectif[TAILLE],j=-1;
+    for (i=0;i<nb;i++)
     {
-        if (t[i] == t1[e-1])
+        int k = 0;
+        while (k <= j && t1[k] != t[i])
         {
-            effectif[e-1]++;
+            k++;
+        }
+
+        if (k <= j)
+        {
+            effectif[k]++;
         }
         else
         {
-            t1[e]=t[i];
-            effectif[e]=1;
-            e++;
+            j++;
+            t1[j] = t[i];
+            effectif[j] = 1;
         }
     }
     printf("\n******Affichage du tableau après et des effectifs******\n");
-    printf("vecteur t1: ");
-    for (i=0;i<e;i++)
+    printf("vecteur t1:");
+    for (i=0;i<=j;i++)
     {
         printf("%d \t",t1[i]);
     }
-    printf("\nvecteur effectif: ");
-    for (i=0;i<e;i++)
+    printf("\neffectif:");
+    for (i=0;i<=j;i++)
     {
         printf("%d \t",effectif[i]);
     }
