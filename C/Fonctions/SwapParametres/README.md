@@ -1,4 +1,4 @@
-Exercice 2 
+# Exercice 2 
  
 1- Ecrire une fonction Swap qui prend 2 paramètres de type entier x et y et qui ne renvoie pas de 
 valeur. Cette fonction réalise un échange de valeurs entre les paramètres formels x et y. 

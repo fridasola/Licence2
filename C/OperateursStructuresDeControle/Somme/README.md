@@ -1,4 +1,4 @@
-#Exercice 7: 
+# Exercice 7: 
 
 a. Ecrire un programme qui lit nb nombres entiers au clavier et qui affiche leur somme, 
 leur produit et leur moyenne. 

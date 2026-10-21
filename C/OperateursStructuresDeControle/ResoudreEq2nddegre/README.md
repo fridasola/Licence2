@@ -1,4 +1,4 @@
-#Exercice 5 :  
+# Exercice 5 :  
  
 Ecrire un programme qui permette de résoudre une équation du 2nd degré 
  (ax2+ bx +c =0) en affichant les valeurs trouvées pour les racines réelles. 

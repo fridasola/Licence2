@@ -1,4 +1,4 @@
-#Exercice 3 :  
+# Exercice 3 :  
 
 Soit un cercle inscrit dans un carré de côté c donné. 
 ![alt text](image.png)

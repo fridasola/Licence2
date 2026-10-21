@@ -1,4 +1,4 @@
-#Exercice 6 : 
+# Exercice 6 : 
 
 Ecrire un programme qui demande 2 nombres à l’utilisateur et qui affiche le menu suivant : 
  Addition  A 

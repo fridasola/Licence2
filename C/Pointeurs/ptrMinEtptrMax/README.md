@@ -1,4 +1,4 @@
-#Exercice 2: 
+# Exercice 2: 
 
 Ecrire un programme qui permet d'afficher le minimum et le maximum d'un ensemble de nb nombres 
 réels. 
